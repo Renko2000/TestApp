@@ -165,7 +165,7 @@ App = {
      initializeMap: function(locationVal, titleVal, latVal, longVal) {
 	var latlng = new google.maps.LatLng(latVal, longVal);
 	var settings = {
-		zoom: 13,
+		zoom: 16,
 		center: latlng,
 		mapTypeControl: false,
 		mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
